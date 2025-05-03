@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.creative-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.creative-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.creative-input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 65%;
+  transition: 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 5px rgba(0, 119, 255, 0.5);
+}
+
+button {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.creative-task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  background-color: #f9f9f9;
+  padding: 12px 18px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.task span {
+  cursor: pointer;
+  flex: 1;
+  text-align: left;
+  transition: 0.2s;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: #999;
+  opacity: 0.7;
+}
+
+.task button {
+  background: none;
+  color: #ff4d4f;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+.task button:hover {
+  transform: scale(1.1);
+}
+.about-section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+  color: #555;
+}
+
+.about-section h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-section ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.about-section ul li {
+  margin-bottom: 6px;
+}
+.about-section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+  color: #555;
+}
+
+.about-section h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-section ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.about-section ul li {
+  margin-bottom: 6px;
+}
